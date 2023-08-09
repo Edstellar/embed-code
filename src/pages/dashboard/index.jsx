@@ -29,7 +29,7 @@ function Dashboard() {
         : `https://${link?.blog}`;
     return `
     <div class="copy-div">Embed this infographic on your site:
-<button class="copy-btn" title="Copy to clipboard" data-copy-text="<p style="max-width: 600px; overflow: auto;"><a style="max-width: 600px" href="${blog}" _rte_href="${blog}" target="_blank"> <img style="max-width: 600px" src="${link?.link}" _rte_src="${link?.link}" alt="${link?.alt}" width="600px" border="0" /> </a> </p> <p>Via <a href="https://www.edstellar.com" _rte_href="https://www.edstellar.com" target="_blank">Edstellar</a> </p>">Copy to clipboard</button></div>
+<button class="copy-btn" title="Copy to clipboard" data-copy-text='<p style="max-width: 600px; overflow: auto;"><a style="max-width: 600px" href="${blog}" _rte_href="${blog}" target="_blank"> <img style="max-width: 600px" src="${link?.link}" _rte_src="${link?.link}" alt="${link?.alt}" width="600px" border="0" /> </a> </p> <p>Via <a href="https://www.edstellar.com" _rte_href="https://www.edstellar.com" target="_blank">Edstellar</a> </p>'>Copy to clipboard</button></div>
     `;
   };
 
